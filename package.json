@@ -1,0 +1,15 @@
+{
+  "name": "deadsimpleapi",
+  "version": "1.0.0",
+  "description": "Simple Node.js with express Web API",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon index.js"
+  },
+  "author": "Tarik Caplja",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
