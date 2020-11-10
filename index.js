@@ -3,10 +3,12 @@ const http = require('http');
 const bodyParser = require('body-parser');
 const path = require('path');
 const app = express();
+const cors = require("cors");
 
 const api = require('./server/routes/api');
 
 app.use(bodyParser.json());
+app.use(bcors());
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(express.static(path.join(__dirname, 'dist')));
